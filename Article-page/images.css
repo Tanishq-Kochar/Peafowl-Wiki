@@ -1,0 +1,405 @@
+@media screen and (min-width:1790px) {
+    /* ================================IMAGES=================================================== */
+.images{
+    height: 1500px;
+    width: 397px;
+    /* border: 1px solid blanchedalmond; */
+    position: absolute;
+    top: 265px;
+    right: 0;
+    /* text-align: center; */
+}
+.image-1{
+    height: 950px;
+    width: 380px;
+    margin: auto;
+    border: 1px solid black;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Peacock_Plumage.jpg/330px-Peacock_Plumage.jpg');
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+    background-position-x: 25px;
+
+}
+
+.groups-included,
+.Cladistically-included-but-traditionally-excluded-taxa{
+    position: relative;
+}
+
+.groups-included-content,
+.Cladistically-included-but-traditionally-excluded-taxa-content{
+    position: absolute;
+    left: 35px;
+}
+
+.images-2{
+  height: 250px;
+  width: 350px;
+  border: 1px solid black;
+  position: relative;
+  left: 25px;
+  top: 10px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.images-2-image{
+    height: 200px;
+    width: 350px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_Magnificent_Peafowl.jpg/330px-The_Magnificent_Peafowl.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    /* border: 2px solid black; */
+    top: 10px;
+    left: 10px;
+}
+
+.images-3{
+    height: 375px;
+    width: 325px;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+    left: 35px;
+    top: 20px;
+}
+
+.images-3-image{
+    height: 350px;
+    width: 300px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Female_Pefowl_001.jpg/330px-Female_Pefowl_001.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 12px;
+    top: 10px;
+}
+
+.images-4{
+    height: 450px;
+    width: 350px;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+    left: 25px;
+    top: 30px;
+    
+}
+
+.images-4-image{
+    height: 500px;
+    width: 300px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Eggs_of_Peafowl_at_Aravath_Kasaragod.jpg/330px-Eggs_of_Peafowl_at_Aravath_Kasaragod.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.images-5{
+    height: 280px;
+    width: 360px;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 30px;
+    top: 20px;
+    left: 20px;
+}
+
+.images-5-image{
+    height: 300px;
+    width: 350px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Baby_Peacock_%2818131813108%29.jpg/330px-Baby_Peacock_%2818131813108%29.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+.images-6{
+    height: 250px;
+    width: 350px;
+    border: 1px solid black; 
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.images-6-image{
+    height: 210px;
+    width: 330px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Peacock-JS.jpg/330px-Peacock-JS.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.images-7{
+    height: 325px;
+    width: 320px;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.images-7-image{
+    height: 250px;
+    width: 300px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Peahen_at_the_zoo.jpg/330px-Peahen_at_the_zoo.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.images-8{
+    height: 550px;
+    width: 320px;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.images-8-image{
+    height: 500px;
+    width: 300px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Peacock_by_Nihal_jabin.jpg/330px-Peacock_by_Nihal_jabin.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.images-9{
+    height: 300px;
+    width: 320px;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.images-9-image{
+    height: 200px;
+    width: 300px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Peacock_Flying.jpg/330px-Peacock_Flying.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+
+/* ================================IMAGES=================================================== */
+}
+
+@media screen and  (max-width:1789px) {
+       /* ================================IMAGES=================================================== */
+.images{
+    height: 1500px;
+    width: 30%;
+    /* border: 1px solid blanchedalmond; */
+    position: absolute;
+    top: 180px;
+    right: 0;
+    /* text-align: center; */
+}
+.image-1{
+    height: 750px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid black;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Peacock_Plumage.jpg/330px-Peacock_Plumage.jpg');
+    background-repeat: no-repeat;
+    background-position-y: 56px;
+    background-position-x: 0px;
+
+}
+
+.groups-included,
+.Cladistically-included-but-traditionally-excluded-taxa{
+    position: relative;
+}
+
+.groups-included-content,
+.Cladistically-included-but-traditionally-excluded-taxa-content{
+    position: absolute;
+    left: 35px;
+}
+
+.images-2{
+  height: 250px;
+  width: 300px;
+  border: 1px solid black;
+  position: relative;
+  left: 5px;
+  top: 10px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.images-2-image{
+    height: 200px;
+    width: 300px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_Magnificent_Peafowl.jpg/330px-The_Magnificent_Peafowl.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    /* border: 2px solid black; */
+    top: 10px;
+    left: 0px;
+}
+
+.images-3{
+    height: 375px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+    left: 5px;
+    top: 20px;
+}
+
+.images-3-image{
+    height: 350px;
+    width: 300px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Female_Pefowl_001.jpg/330px-Female_Pefowl_001.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: px;
+    top: 10px;
+}
+
+.images-4{
+    height: 450px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+    left: 5px;
+    top: 30px;
+    
+}
+
+.images-4-image{
+    height: 500px;
+    width: 300px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Eggs_of_Peafowl_at_Aravath_Kasaragod.jpg/330px-Eggs_of_Peafowl_at_Aravath_Kasaragod.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+
+.images-5{
+    height: 280px;
+    width: 300px;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 30px;
+    top: 20px;
+    left: 5px;
+}
+
+.images-5-image{
+    height: 300px;
+    width: 300px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Baby_Peacock_%2818131813108%29.jpg/330px-Baby_Peacock_%2818131813108%29.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: px;
+    top: 10px;
+}
+
+.images-6{
+    height: 250px;
+    width: 300px;
+    border: 1px solid black; 
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+.images-6-image{
+    height: 210px;
+    width: 300px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Peacock-JS.jpg/330px-Peacock-JS.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+.images-7{
+    height: 325px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+.images-7-image{
+    height: 250px;
+    width: 300px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Peahen_at_the_zoo.jpg/330px-Peahen_at_the_zoo.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+
+.images-8{
+    height: 550px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+
+.images-8-image{
+    height: 500px;
+    width: 300px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Peacock_by_Nihal_jabin.jpg/330px-Peacock_by_Nihal_jabin.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+.images-9{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+.images-9-image{
+    height: 200px;
+    width: 300px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Peacock_Flying.jpg/330px-Peacock_Flying.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+
+
+/* ================================IMAGES=================================================== */
+}

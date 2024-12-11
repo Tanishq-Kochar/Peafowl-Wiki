@@ -1,0 +1,261 @@
+@media screen and (min-width:1790px) {
+    .navbar{
+        height: 100px;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        top: 0;
+        right: 0    ;
+    }
+    .three-bars{
+        height: 100%;
+        width: 50px;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+        position: absolute;
+        left: 50px;
+        font-size: 30px;
+    }
+    
+    /* .three-bar-child{
+        height: 50px;
+        width: 30px;
+        border: 1px solid green;
+        background-image: url('https://th.bing.com/th/id/OIP.sy-BgcwW1Sk_l262tI8U3QHaHa?w=140&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+        background-repeat: no-repeat;
+        background-size: cover; 
+    } */
+    /* ==========================LOGO CSS STARTS================================================ */
+    .wiki-logo{
+        height: 100%;;
+        width: 20%;
+        /* border: 1px solid paleturquoise; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .wiki-img{
+        height: 90px;
+        width: 300px;
+        /* border: 1px solid black; */
+         background-image: url('https://bideford.com/wp-content/uploads/2023/06/logo-wikipedia.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    /* ==========================LOGO CSS ENDS================================================ */
+    
+    /* =========================SEARCH BAR CSS STARTS======================================================== */
+    .searchwiki{
+        height: 100%;
+        width: 40%;
+        /* border: 1px solid green; */
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .search-box{
+       height: 50%;
+       width: 100%;
+       /* border: 1px solid black; */
+       display: flex;
+       /* justify-content: center; */
+       /* flex-direction: row; */
+       justify-self: center;
+       align-items: center;
+    }
+    
+    .search-bar{
+        width: 100%;
+        height: 90%;
+        font-size: 30px;
+        /* border: 0; */
+    }
+    
+    .search-button{
+        width: 120px;
+        height: 100%;
+        font-size: 30px;
+        /* border: 0; */
+    }
+    
+    /* =========================SEARCH BAR CSS ENDS======================================================== */
+    
+    /* =========================NAV LINKS CSS STARTS======================================================== */
+    
+    .create-login{
+        height: 100%;
+        width: 15%;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .nav-links{
+        font-size: 20px;
+        font-family: sans-serif;
+        /* border: 1px solid rosybrown; */
+    }
+    
+    /*  LVHA */
+    .nav-links:link{
+        text-decoration: none;
+        color: blue;
+    }
+    
+    .nav-links:visited{
+        color: blue;
+    }
+    
+    .nav-links:hover{
+        text-decoration: underline;
+    }
+    
+    .nav-links:active{
+        color: orange;
+    }
+    /* =========================NAV LINKS CSS ENDS======================================================== */
+    
+}
+
+@media screen and (max-width:1789px) {
+    .navbar{
+        height: 100px;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        top: 0;
+        right: 0;
+        /* margin-bottom: 20px;  */
+    }
+    .three-bars{
+        height: 100%;
+        width: 5%;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+        position: absolute;
+        left: 10px;
+        font-size: 30px;
+    }
+    
+    /* .three-bar-child{
+        height: 50px;
+        width: 30px;
+        border: 1px solid green;
+        background-image: url('https://th.bing.com/th/id/OIP.sy-BgcwW1Sk_l262tI8U3QHaHa?w=140&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+        background-repeat: no-repeat;
+        background-size: cover; 
+    } */
+    /* ==========================LOGO CSS STARTS================================================ */
+    .wiki-logo{
+        height: 100%;;
+        width: 30%;
+        /* border: 1px solid paleturquoise; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+    
+    }
+    
+    .wiki-img{
+        height: 90%;
+        width: 90%;
+        /* border: 1px solid black; */
+         background-image: url('https://bideford.com/wp-content/uploads/2023/06/logo-wikipedia.webp');
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+    /* ==========================LOGO CSS ENDS================================================ */
+    
+    /* =========================SEARCH BAR CSS STARTS======================================================== */
+    .searchwiki{
+        height: 100%;
+        width: 30%;
+        /* border: 1px solid green; */
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: -25px;    
+
+    }
+    
+    .search-box{
+       height: 50%;
+       width: 100%;
+       /* border: 1px solid black; */
+       display: flex;
+       /* justify-content: center; */
+       /* flex-direction: row; */
+       justify-self: center;
+       align-items: center;
+    }
+    
+    .search-bar{
+        width: 100%;
+        height: 90%;
+        font-size: 20px;
+        /* border: 0; */
+    }
+    
+    .search-button{
+        width: 120px;
+        height: 100%;
+        font-size: 20px;
+        /* border: 0; */
+    }
+    
+    /* =========================SEARCH BAR CSS ENDS======================================================== */
+    
+    /* =========================NAV LINKS CSS STARTS======================================================== */
+    
+    .create-login{
+        height: 100%;
+        width: 25%;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .nav-links{
+        font-size: 20px;
+        font-family: sans-serif;
+        /* border: 1px solid rosybrown; */
+    }
+    
+    /*  LVHA */
+    .nav-links:link{
+        text-decoration: none;
+        color: blue;
+    }
+    
+    .nav-links:visited{
+        color: blue;
+    }
+    
+    .nav-links:hover{
+        text-decoration: underline;
+    }
+    
+    .nav-links:active{
+        color: orange;
+    }
+    /* =========================NAV LINKS CSS ENDS======================================================== */
+    
+}

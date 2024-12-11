@@ -1,0 +1,931 @@
+@media screen and (min-width:1790px) {
+    .container{
+        margin-top: 110px;
+        height: 7000px;
+        width: 100%;
+        /* border: 1px solid black; */
+        position: absolute;
+        left: 0;
+        display: flex;
+        justify-content: ce;
+    }
+    /*==============================table-of-content CSS Starts================================================== */
+    .table-of-content{
+        height: 600px;
+        width: 25%;
+        /* border: 1px solid rebeccapurple; */
+        /* display: flex; */
+        /* position: relative; */
+        position: sticky;
+        top: 10px;
+    }
+    
+    .table-of-content-inside-div{
+        height: 550px;
+        width: 70%;
+        /* margin: auto; */
+        /* border: 1px solid green; */
+        margin: 50px auto;
+     
+        /* text-align: left; */
+        /* position: absolute; */
+    
+        /* top: 10px; */
+        /* left: 10px; */
+        /* align-content: center; */
+    }
+    
+    .content-heading{
+        /* padding: auto;   */
+        margin-bottom:  0;
+    }
+    .table-of-content-links{
+        font-size: 20px;   
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        /* gap: 1px; */
+        /* gap: 10px 30px;   */
+    }
+    /* ==========================LVHA===================================== */
+    .TOB-links:link{
+        text-decoration: none;
+        color: blue ;
+    }
+    
+    .TOB-links:visited{
+        /* color: black; */
+    }
+    
+    .TOB-links:hover{
+        text-decoration: underline;
+    }
+    .TOB-links:active{
+        color: black;
+    }
+    /*==============================table-of-content CSS Ends================================================== */
+    
+    
+    .content-part{
+        height: 100%;
+        width: 73%;
+        /* border: 1px solid blue; */
+        position: relative;
+    }
+    
+    .peafowl-heading{
+        font-size: 50px;
+        font-weight: 200;
+    }
+    
+    .page-links{
+        height: 50px;
+        width: 150px;
+        margin-top: 10px;
+        font-size: 25px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -10px;
+        font-family: sans-serif;
+        /* border: 1px solid yellowgreen; */
+    }
+    /* .article-link,
+    .talk-link{
+        font-family: sans-serif;
+        font-size: 200px;
+    }
+     */
+    .top-links:link{
+        color: blue;
+        text-decoration: none;
+    }
+    .top-links:visited{
+        color: blue;
+    }
+    .top-links:hover{
+        text-decoration: underline;
+    }
+    
+    .top-links:active{
+        color: black;
+    }
+    /* ================================TOP CONTENT START=================================================== */
+    .top{
+        height: 1000px;
+        width: 100%;
+        font-size: 22px;
+        font-family: sans-serif;
+    }
+    
+    .top-1{
+    
+        height: 150px;
+        width: 100%;
+        position: relative;
+        /* border: 1px solid red ; */
+    }
+    
+    .top-1a{
+        height: 70px;
+        width: 80%;
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        /* border: 1px solid orange; */
+    }
+    
+    .top-2{
+        height: 630px;
+        width: 70%;
+        /* border: 1px solid pink; */
+        line-height: 1.5;
+    }
+    
+    /* ================================TOP CONTENT SENDS=================================================== */
+    /* ================================DESCRIPTION START=================================================== */
+    .description{
+        width: 70%;
+        height: 3300px;
+        /* border: 1px solid darkblue; */
+    }
+    
+    .description-heading-main{
+        font-size: 35px;
+        font-family: serif;
+        font-weight: 200;
+        margin-bottom: 5px;
+    }
+    
+    .description-headings{
+        margin-bottom: 10px;
+    }
+    
+    .sexual-selction-subsection{
+        height: 150px;
+        width: 700px;
+        position: absolute;
+        left: 100px;
+        /* border: 1px solid firebrick; */
+    }
+    
+    .description-4{
+        height: 330px;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    
+    .para-with-image{
+        /* position: relative; */
+        /* border: 2px solid orangered; */
+    }
+    
+    .box{
+        height: 350px;
+        width: 350px;
+        border: 1px solid black;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        position: relative;
+        /* position: absolute;
+        top: 50px; */
+    }
+    
+    .box-image{
+        height: 250px;
+        width: 330px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Peahen_in_front_of_displaying_peacock.jpg/330px-Peahen_in_front_of_displaying_peacock.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    /* ================================DESCRIPTION ENDS=================================================== */
+    /* ================================Behaviour Starts======================================== */
+    .behaviour{
+        height: 300px;
+        width: 100%;
+        /* border: 1px solid fuchsia; */
+        margin-bottom: 10px;
+    }
+    
+    .behaviour-heading{
+        font-size: 35px;
+        font-family: serif;
+        font-weight: 200;
+        margin-bottom: 5px;
+    }
+    
+    .behaviour-box{
+        height: 150px;
+        width: 350px;
+        border: 1px solid black;
+        float: left;
+        position: relative;
+        /* margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-top: 20px; */
+        margin: 20px 10px 10px 10px;
+    }
+    
+    .behaviour-box-image{
+        height: 100px;
+        width: 330px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Peacock_at_cat_rescue_centre_May_2017.jpg/330px-Peacock_at_cat_rescue_centre_May_2017.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    /* ================================Behaviour Ends======================================== */
+    /* ================================Diet Starts======================================== */
+    .diet{
+        height: 380px;
+        width: 100%;
+        /* border: 1px solid purple; */
+        position: relative;
+    }
+    
+    .diet-heading{
+        font-size: 35px;
+        font-family: serif;
+        font-weight: 200;
+        margin-bottom: 5px;
+    }
+    
+    .box-diet{
+        height: 290px;
+        width: 360px;
+        border: 1px solid black;
+        float: right;
+        margin-right: 20px ;
+        margin-top: 10px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+    }
+    
+    .box-diet-image{
+        height: 240px;
+        width: 330px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Peafowl_at_the_Taipei_Zoo.jpg/330px-Peafowl_at_the_Taipei_Zoo.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 10px;
+        left: 13px;
+    }
+    
+    
+    .diet-text-1{
+        height: 200px;
+        width: 70%;
+        /* border: 1px solid red; */
+    }
+    
+    .diet-text-2{
+        height: 100px;
+        width: 70%;
+        /* border: 1px solid burlywood; */
+        position: absolute;
+        left: 0;
+        
+    }
+    /* ================================Diet Ends======================================== */
+    /* ================================Cultural significance Starts======================================== */
+    .cultural-significance{
+        height: 2000px;
+        width: 100%;
+        /* border: 1px solid coral; */
+    }
+    
+    .cultural-significance-heading{
+        font-size: 35px;
+        font-family: serif;
+        font-weight: 200;
+        margin-bottom: 5px;
+    }
+    
+    .cards{
+        height: 1800px;
+        width: 100%;
+        /* border: 2px solid blueviolet; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        /* align-content: space-between; */
+    }
+    
+    .card{
+        height: 50px;
+        width: 300px;
+        border: 1px solid black;
+    }
+    
+    .card-1{
+        height: 500px;
+        width: 350px;
+        position: relative;
+        background-color: #f8f9fa;
+    }
+    
+    .card-1-image{
+        height: 200px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Caucasian_albanian_stone_azerbaijan_mingechaur2.jpg/300px-Caucasian_albanian_stone_azerbaijan_mingechaur2.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 100px;
+        left: 25px;
+    }
+    
+    .card-2{
+        height: 500px;
+        width: 350px;
+        position: relative;
+        background-color: #f8f9fa;
+    }
+    
+    .card-2-image{
+        height: 350px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Kesi_roundel_with_five-clawed_dragon_design.jpg/300px-Kesi_roundel_with_five-clawed_dragon_design.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        left: 25px;
+    }
+    
+    .card-3{
+        height: 500px;
+        width: 350px;
+        position: relative;
+        background-color: #f8f9fa;
+    }
+    
+    .card-3-image{
+        height: 350px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Abramishvili1.JPG/300px-Abramishvili1.JPG');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 80px;
+        left: 25px;
+    }
+    
+    .card-4{
+        height: 500px;
+        width: 350px;
+        position: relative;
+        background-color: #f8f9fa;
+    }
+    
+    .card-4-image{
+        height: 350px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/The_Annunciation%2C_with_Saint_Emidius_-_Carlo_Crivelli_-_National_Gallery.jpg/213px-The_Annunciation%2C_with_Saint_Emidius_-_Carlo_Crivelli_-_National_Gallery.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        left: 60px;
+    }
+    
+    .card-5{
+        height: 500px;
+        width: 350px;
+        position: relative;
+        background-color: #f8f9fa;
+    }
+    
+    .card-5-image{
+        height: 350px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/PeacockInTheWoods.jpg/240px-PeacockInTheWoods.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        left: 60px;
+    }
+    
+    .card-6{
+        height: 500px;
+        width: 350px;
+        position: relative;
+        background-color: #f8f9fa;
+    }
+    
+    .card-6-image{
+        height: 350px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Pavo_Cristafus-_Common_Pea_Fowl._64.98.209.jpg/225px-Pavo_Cristafus-_Common_Pea_Fowl._64.98.209.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        left: 60px;
+    }
+    
+    .card-7{
+        height: 500px;
+        width: 350px;
+        position: relative;
+        background-color: #f8f9fa;
+    }
+    
+    .card-7-image{
+        height: 350px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Bowl_with_Peacock_Motif%2C_ca._1200%E2%80%931230%2C_78.81.jpg/242px-Bowl_with_Peacock_Motif%2C_ca._1200%E2%80%931230%2C_78.81.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        left: 60px;
+    }
+    
+    .card-8{
+        height: 500px;
+        width: 400px;
+        position: relative;
+        background-color: #f8f9fa; 
+    }
+    
+    .card-8-image{
+        height: 350px;
+        width: 350px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Golingeswara_temple_complex_Biccavole_02.jpg/300px-Golingeswara_temple_complex_Biccavole_02.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        left: 60px;
+    }
+    /* ================================Cultural significance Ends======================================== */
+    
+}
+@media screen and  (max-width:1789px) {
+    .container{
+        margin-top: 110px;
+        height: 6000px;
+        width: 100%;
+        /* border: 1px solid black; */
+        position: absolute;
+        left: 0;
+        display: flex;
+        justify-content: ce;
+    }
+    /*==============================table-of-content CSS Starts================================================== */
+    .table-of-content{
+        height: 450px;
+        width: 15%;
+        /* border: 1px solid rebeccapurple; */
+        /* display: flex; */
+        /* position: relative; */
+        position: sticky;
+        top: 10px;
+    }
+    
+    .table-of-content-inside-div{
+        height: 400px;
+        width: 70%;
+        /* margin: auto; */
+        /* border: 1px solid green; */
+        margin: 10px;
+     
+        /* text-align: left; */
+        /* position: absolute; */
+    
+        /* top: 10px; */
+        /* left: 10px; */
+        /* align-content: center; */
+    }
+    
+    .content-heading{
+        /* padding: auto;   */
+        margin-bottom:  0;
+    }
+    .table-of-content-links{
+        font-size: 15px;   
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        /* gap: 1px; */
+        /* gap: 10px 30px;   */
+    }
+    /* ==========================LVHA===================================== */
+    .TOB-links:link{
+        text-decoration: none;
+        color: blue ;
+    }
+    
+    .TOB-links:visited{
+        /* color: black; */
+    }
+    
+    .TOB-links:hover{
+        text-decoration: underline;
+    }
+    .TOB-links:active{
+        color: black;
+    }
+    /*==============================table-of-content CSS Ends================================================== */
+    
+    
+    .content-part{
+        height: 100%;
+        width: 85%;
+        /* border: 1px solid blue; */
+        position: relative;
+    }
+    
+    .peafowl-heading{
+        font-size: 50px;
+        font-weight: 200;
+    }
+    
+    .page-links{
+        height: 30px;
+        width: 150px;
+        margin-top: 10px;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        /* margin-bottom: -0px; */
+        /* border: 1px solid yellowgreen; */
+    }
+    
+    .top-links:link{
+        color: blue;
+        text-decoration: none;
+    }
+    .top-links:visited{
+        color: blue;
+    }
+    .top-links:hover{
+        text-decoration: underline;
+    }
+    
+    .top-links:active{
+        color: black;
+    }
+    /* ================================TOP CONTENT START=================================================== */
+    .top{
+        height: 800px;
+        width: 100%;
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+    
+    .top-1{
+    
+        height: 80px;
+        width: 100%;
+        position: relative;
+        /* border: 1px solid red ; */
+    }
+    
+    .top-1a{
+        height: 40px;
+        width: 80%;
+        position: absolute;
+        left: 50px;
+        top: 30px;
+        /* border: 1px solid orange; */
+    }
+    
+    .top-2{
+        height: 450px;
+        width: 70%;
+        /* border: 1px solid pink; */
+        line-height: 1.5;
+    }
+    
+    /* ================================TOP CONTENT SENDS=================================================== */
+    /* ================================DESCRIPTION START=================================================== */
+    .description{
+        width: 70%;
+        height: 2450px;
+        /* border: 1px solid darkblue; */
+    }
+    
+    .description-heading-main{
+        font-size: 35px;
+        font-family: serif;
+        font-weight: 200;
+        margin-bottom: 5px;
+    }
+    
+    .description-headings{
+        margin-bottom: 10px;
+    }
+    .description-4{
+        height: 250px;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .sexual-selction-subsection{
+        height: 80px;
+        width: 65%;
+        position: absolute;
+        left: 50px;
+        /* border: 1px solid firebrick; */
+    }
+    
+
+    
+    .para-with-image{
+        /* position: relative; */
+        /* border: 2px solid orangered; */
+    }
+    
+    .box{
+        height: 350px;
+        width: 350px;
+        border: 1px solid black;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        position: relative;
+        /* position: absolute;
+        top: 50px; */
+    }
+    
+    .box-image{
+        height: 250px;
+        width: 330px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Peahen_in_front_of_displaying_peacock.jpg/330px-Peahen_in_front_of_displaying_peacock.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    /* ================================DESCRIPTION ENDS=================================================== */
+    /* ================================Behaviour Starts======================================== */
+    .behaviour{
+        height: 300px;
+        width: 70%;
+        /* border: 1px solid fuchsia; */
+        margin-bottom: 10px;
+        margin-top: 00px;
+    }
+    
+    .behaviour-heading{
+        font-size: 35px;
+        font-family: serif;
+        font-weight: 200;
+        margin-bottom: 5px;
+    }
+    
+    .behaviour-box{
+        height: 150px;
+        width: 350px;
+        border: 1px solid black;
+        float: left;
+        position: relative;
+        /* margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-top: 20px; */
+        margin: 20px 10px 10px 10px;
+    }
+    
+    .behaviour-box-image{
+        height: 100px;
+        width: 330px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Peacock_at_cat_rescue_centre_May_2017.jpg/330px-Peacock_at_cat_rescue_centre_May_2017.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    /* ================================Behaviour Ends======================================== */
+    /* ================================Diet Starts======================================== */
+    .diet{
+        height: 600px;
+        width: 70%;
+        /* border: 1px solid purple; */
+        position: relative;
+        /* margin-top: 400px; */
+    }
+    
+    .diet-heading{
+        font-size: 35px;
+        font-family: serif;
+        font-weight: 200;
+        margin-bottom: 5px;
+    }
+    
+    .box-diet{
+        height: 290px;
+        width: 45%;
+        border: 1px solid black;
+        /* float: right; */
+        margin-right: 20px ;
+        margin-top: 10px;
+        position: absolute;
+        /* right: 100px;    */
+        margin: auto;
+        left: 150px;
+        top: 200px;
+    }
+    
+    .box-diet-image{
+        height: 240px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Peafowl_at_the_Taipei_Zoo.jpg/330px-Peafowl_at_the_Taipei_Zoo.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 10px;
+        left: 5%;
+    }
+    
+    
+    .diet-text-1{
+        height: 140px;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    
+    .diet-text-2{
+        height: 100px;
+        width: 100%;
+        /* border: 1px solid burlywood; */
+        position: absolute;
+        left: 0;
+        top: 500px;
+    }
+
+ 
+    /* ================================Diet Ends======================================== */
+    /* ================================Cultural significance Starts======================================== */
+    .cultural-significance{
+        height: 2000px;
+        width: 100%;
+        /* border: 1px solid coral; */
+        margin-top: 0px;
+    }
+    
+    .cultural-significance-heading{
+        font-size: 35px;
+        font-family: serif;
+        font-weight: 200;
+        margin-bottom: 5px;
+    }
+    
+    .cards{
+        height: 1400px;
+        width: 100%;
+        /* border: 2px solid blueviolet; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        align-content: space-between;
+    }
+    
+    .card{
+        height: 50px;
+        width: 300px;
+        border: 1px solid black;
+    }
+    
+    .card-1{
+        height: 430px;
+        width: 300px;
+        position: relative;
+        background-color: #f8f9fa;
+    }
+    
+    .card-1-image{
+        height: 200px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Caucasian_albanian_stone_azerbaijan_mingechaur2.jpg/300px-Caucasian_albanian_stone_azerbaijan_mingechaur2.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+    }
+    
+    .card-2{
+        height: 430px;
+        width: 310px;
+        position: relative;
+        background-color: #f8f9fa;
+        top: 20px;
+    }
+    
+    .card-2-image{
+        height: 350px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Kesi_roundel_with_five-clawed_dragon_design.jpg/300px-Kesi_roundel_with_five-clawed_dragon_design.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    
+    .card-3{
+        height: 430px;
+        width: 310px;
+        position: relative;
+        background-color: #f8f9fa;
+        top: 20px;
+    }
+    
+    .card-3-image{
+        height: 350px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Abramishvili1.JPG/300px-Abramishvili1.JPG');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 80px;
+        left: 5px;
+    }
+    
+    .card-4{
+        height: 430px;
+        width: 310px;
+        position: relative;
+        background-color: #f8f9fa;
+    }
+    
+    .card-4-image{
+        height: 350px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/The_Annunciation%2C_with_Saint_Emidius_-_Carlo_Crivelli_-_National_Gallery.jpg/213px-The_Annunciation%2C_with_Saint_Emidius_-_Carlo_Crivelli_-_National_Gallery.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+    
+    .card-5{
+        height: 430px;
+        width: 310px;
+        position: relative;
+        background-color: #f8f9fa;
+    }
+    
+    .card-5-image{
+        height: 350px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/PeacockInTheWoods.jpg/240px-PeacockInTheWoods.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        left: 35px;
+    }
+    
+    .card-6{
+        height: 430px;
+        width: 310px;
+        position: relative;
+        background-color: #f8f9fa;
+    }
+    
+    .card-6-image{
+        height: 350px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Pavo_Cristafus-_Common_Pea_Fowl._64.98.209.jpg/225px-Pavo_Cristafus-_Common_Pea_Fowl._64.98.209.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+    
+    .card-7{
+        height: 430px;
+        width: 310px;
+        position: relative;
+        background-color: #f8f9fa;
+    }
+    
+    .card-7-image{
+        height: 350px;
+        width: 300px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Bowl_with_Peacock_Motif%2C_ca._1200%E2%80%931230%2C_78.81.jpg/242px-Bowl_with_Peacock_Motif%2C_ca._1200%E2%80%931230%2C_78.81.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+    
+    .card-8{
+        height: 430px;
+        width: 380px;
+        position: relative;
+        background-color: #f8f9fa; 
+    }
+    
+    .card-8-image{
+        height: 350px;
+        width: 350px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Golingeswara_temple_complex_Biccavole_02.jpg/300px-Golingeswara_temple_complex_Biccavole_02.jpg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+    /* ================================Cultural significance Ends======================================== */
+    
+}
